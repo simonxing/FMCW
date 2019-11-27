@@ -66,7 +66,7 @@ file2.close()
 
 data = signal
 data1 = np.loadtxt('datafile1.txt')
-data2 = np.loadtxt('datafile2.txt', skiprows=200)
+data2 = np.loadtxt('datafile2.txt')
 
 plt.plot(data1[:, 0], data1[:, 2], label='TX chirp')
 plt.plot(data2[:, 0], data2[:, 2], label='RX chirp')
